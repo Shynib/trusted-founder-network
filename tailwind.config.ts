@@ -52,15 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Foundr's Premium Colors
 				navy: {
 					deep: 'hsl(var(--navy-deep))',
 					primary: 'hsl(var(--navy-primary))',
 					light: 'hsl(var(--navy-light))'
 				},
-				gold: {
-					accent: 'hsl(var(--gold-accent))',
-					light: 'hsl(var(--gold-light))'
+				blue: {
+					accent: 'hsl(var(--blue-accent))',
+					light: 'hsl(var(--blue-light))'
 				},
 				silver: {
 					accent: 'hsl(var(--silver-accent))'
@@ -78,12 +77,12 @@ export default {
 			},
 			backgroundImage: {
 				'premium-gradient': 'var(--premium-gradient)',
-				'gold-gradient': 'var(--gold-gradient)',
+				'blue-gradient': 'var(--blue-gradient)',
 				'hero-gradient': 'var(--hero-gradient)',
 			},
 			boxShadow: {
 				'premium': 'var(--shadow-premium)',
-				'gold': 'var(--shadow-gold)',
+				'blue': 'var(--shadow-blue)',
 				'subtle': 'var(--shadow-subtle)',
 			},
 			transitionTimingFunction: {

@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}
           <div className="space-y-8">
-            <Badge variant="outline" className="inline-flex items-center space-x-2 border-gold-accent/30 text-gold-accent">
+            <Badge variant="outline" className="inline-flex items-center space-x-2 border-blue-accent/30 text-blue-accent">
               <Sparkles className="w-4 h-4" />
               <span>Invitation Only Network</span>
             </Badge>
@@ -36,15 +36,15 @@ const HeroSection = () => {
             {/* Key Features */}
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center space-x-2">
-                <Shield className="w-5 h-5 text-gold-accent" />
+                <Shield className="w-5 h-5 text-blue-accent" />
                 <span className="text-sm font-medium">Verified Profiles</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Users className="w-5 h-5 text-gold-accent" />
+                <Users className="w-5 h-5 text-blue-accent" />
                 <span className="text-sm font-medium">AI Matchmaking</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Sparkles className="w-5 h-5 text-gold-accent" />
+                <Sparkles className="w-5 h-5 text-blue-accent" />
                 <span className="text-sm font-medium">Exclusive Events</span>
               </div>
             </div>
@@ -63,7 +63,7 @@ const HeroSection = () => {
             </div>
 
             {/* Social Proof */}
-            <div className="pt-8 border-t border-gold-accent/20">
+            <div className="pt-8 border-t border-blue-accent/20">
               <p className="text-sm text-muted-foreground mb-4">Trusted by leaders from</p>
               <div className="flex flex-wrap gap-4 text-sm font-medium text-navy-light">
                 <span>Fortune 500</span>
@@ -90,12 +90,12 @@ const HeroSection = () => {
             </div>
             
             {/* Floating stats cards */}
-            <div className="absolute -top-6 -left-6 bg-card border border-gold-accent/20 rounded-xl p-4 shadow-gold backdrop-blur-sm">
+            <div className="absolute -top-6 -left-6 bg-card border border-blue-accent/20 rounded-xl p-4 shadow-blue backdrop-blur-sm">
               <div className="text-2xl font-bold text-navy-primary">2.5K+</div>
               <div className="text-sm text-muted-foreground">Verified Leaders</div>
             </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-card border border-gold-accent/20 rounded-xl p-4 shadow-gold backdrop-blur-sm">
+            <div className="absolute -bottom-6 -right-6 bg-card border border-blue-accent/20 rounded-xl p-4 shadow-blue backdrop-blur-sm">
               <div className="text-2xl font-bold text-navy-primary">98%</div>
               <div className="text-sm text-muted-foreground">Success Rate</div>
             </div>

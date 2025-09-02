@@ -7,13 +7,13 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-background/95 backdrop-blur-sm border-b border-gold-accent/20 sticky top-0 z-50">
+    <nav className="bg-background/95 backdrop-blur-sm border-b border-blue-accent/20 sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-premium-gradient rounded-xl flex items-center justify-center group-hover:shadow-gold transition-all duration-premium">
-              <Crown className="w-6 h-6 text-gold-accent" />
+            <div className="w-10 h-10 bg-premium-gradient rounded-xl flex items-center justify-center group-hover:shadow-blue transition-all duration-premium">
+              <Crown className="w-6 h-6 text-blue-accent" />
             </div>
             <span className="text-2xl font-bold bg-premium-gradient bg-clip-text text-transparent">
               Foundr's
@@ -52,7 +52,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gold-accent/20">
+          <div className="md:hidden mt-4 pb-4 border-t border-blue-accent/20">
             <div className="flex flex-col space-y-4 pt-4">
               <Link 
                 to="/features" 

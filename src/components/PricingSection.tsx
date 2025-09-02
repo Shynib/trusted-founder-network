@@ -67,7 +67,7 @@ const PricingSection = () => {
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <Badge variant="outline" className="mb-4 border-gold-accent/30 text-gold-accent">
+          <Badge variant="outline" className="mb-4 border-blue-accent/30 text-blue-accent">
             Membership Tiers
           </Badge>
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
@@ -89,14 +89,14 @@ const PricingSection = () => {
               key={index}
               className={`relative border-2 transition-all duration-premium hover:scale-105 ${
                 index === 1 
-                  ? 'border-gold-accent shadow-gold lg:scale-105' 
-                  : 'border-gold-accent/20 hover:border-gold-accent/40'
+                  ? 'border-blue-accent shadow-blue lg:scale-105' 
+                  : 'border-blue-accent/20 hover:border-blue-accent/40'
               }`}
             >
               {/* Popular Badge */}
               {index === 1 && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <Badge className="bg-gold-gradient text-navy-deep font-semibold">
+                  <Badge className="bg-blue-gradient text-navy-deep font-semibold">
                     {plan.badge}
                   </Badge>
                 </div>
@@ -126,7 +126,7 @@ const PricingSection = () => {
                 <ul className="space-y-3">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start space-x-3">
-                      <Check className="w-5 h-5 text-gold-accent mt-0.5 flex-shrink-0" />
+                      <Check className="w-5 h-5 text-blue-accent mt-0.5 flex-shrink-0" />
                       <span className="text-sm">{feature}</span>
                     </li>
                   ))}
@@ -149,11 +149,11 @@ const PricingSection = () => {
         </div>
 
         {/* Bottom Notice */}
-        <div className="text-center mt-16 p-6 bg-card/50 backdrop-blur-sm rounded-2xl border border-gold-accent/20">
+        <div className="text-center mt-16 p-6 bg-card/50 backdrop-blur-sm rounded-2xl border border-blue-accent/20">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <Crown className="w-5 h-5 text-gold-accent" />
+            <Crown className="w-5 h-5 text-blue-accent" />
             <span className="font-semibold text-navy-primary">Exclusive Membership</span>
-            <Crown className="w-5 h-5 text-gold-accent" />
+            <Crown className="w-5 h-5 text-blue-accent" />
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             All memberships are subject to application review and verification. 
