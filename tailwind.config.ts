@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Foundr's Premium Colors
+				navy: {
+					deep: 'hsl(var(--navy-deep))',
+					primary: 'hsl(var(--navy-primary))',
+					light: 'hsl(var(--navy-light))'
+				},
+				gold: {
+					accent: 'hsl(var(--gold-accent))',
+					light: 'hsl(var(--gold-light))'
+				},
+				silver: {
+					accent: 'hsl(var(--silver-accent))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +75,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'premium-gradient': 'var(--premium-gradient)',
+				'gold-gradient': 'var(--gold-gradient)',
+				'hero-gradient': 'var(--hero-gradient)',
+			},
+			boxShadow: {
+				'premium': 'var(--shadow-premium)',
+				'gold': 'var(--shadow-gold)',
+				'subtle': 'var(--shadow-subtle)',
+			},
+			transitionTimingFunction: {
+				'premium': 'cubic-bezier(0.4, 0, 0.2, 1)',
+			},
+			transitionDuration: {
+				'premium': '400ms',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
